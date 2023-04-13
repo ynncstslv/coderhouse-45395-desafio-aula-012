@@ -1,0 +1,37 @@
+.exercicio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.box {
+	width: 300px;
+	height: 20vh;
+	padding: 5px 10px 12px 15px;
+	margin: 5px 10px 12px 15px;
+	color: #000;
+	background-color: #f3ff06;
+}
+
+.exercicio2 {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.texto {
+	max-width: 30%;
+	max-height: 20vh;
+	margin: 5px 8px;
+	padding: 6px 9px;
+	border: 1px dashed #f3ff06;
+	overflow: scroll;
+}
+
+.exercicio p {
+	display: inline;
+}
+
+.exercicio p span {
+	display: block;
+}

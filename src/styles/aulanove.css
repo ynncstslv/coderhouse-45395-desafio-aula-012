@@ -1,0 +1,82 @@
+/* nav aula */
+
+nav {
+	width: 100vw;
+	height: 4.5rem;
+	position: fixed;
+	top: 0;
+	background-color: black;
+	z-index: 11;
+}
+
+.nav-aula-container {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 10%;
+	padding: 0.3rem;
+}
+
+.nav-aula-menu {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.nav-aula-menu a {
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-aula-menu a:hover {
+	color: #f3ff06;
+}
+
+/* exercício 001 */
+
+.exercicio {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.exercicio h1 {
+	margin-bottom: 2rem;
+	color: #f3ff06;
+}
+
+.desafio1 {
+	margin-bottom: 1rem;
+	font-weight: 200;
+	font-size: 1rem;
+}
+
+.desafio1:nth-child(2) {
+	color: #fca1fe;
+}
+
+.exercicio ul li {
+	list-style: circle;
+}
+
+.list-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#lista1 {
+	margin: 2rem 5rem;
+	color: #f3ff06;
+}
+
+#lista2 {
+	margin: 2rem 5rem;
+	color: #fff;
+}

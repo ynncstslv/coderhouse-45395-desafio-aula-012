@@ -1,0 +1,170 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* css reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* general tags */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	background-image: linear-gradient(
+		180deg,
+		rgba(43, 38, 38, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+section {
+	padding: 2rem 0;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+/* header */
+
+header {
+	height: 100%;
+	position: relative;
+	margin-bottom: 5rem;
+}
+
+.header-container {
+	width: 50%;
+	height: 100%;
+	align-items: center;
+	position: relative;
+	top: 10rem;
+}
+
+.header-img {
+	text-align: center;
+}
+
+.header-img img {
+	width: 90%;
+}
+
+.header-info {
+	text-align: center;
+}
+
+.header-info h2 {
+	margin: 1rem 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.header-info p {
+	margin: 2rem 0;
+	font-size: 1.2rem;
+	font-weight: 200;
+}
+
+.header-info p a {
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.header-info p a:hover {
+	color: #f3ff06;
+}
+
+/* nav */
+
+nav {
+	width: 100%;
+	height: 5rem;
+	background-color: transparent;
+	z-index: 11;
+}
+
+.nav-container {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-menu {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.nav-menu a {
+	padding: 0.5rem 1.5rem;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #f3ff06;
+	border: 1px solid #f3ff06;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+	color: #000;
+	background-color: #f3ff06;
+}
+
+/* nav {
+	width: 100vw;
+	height: 4.5rem;
+	position: fixed;
+	top: 0;
+	background-color: transparent;
+	z-index: 11;
+}
+
+.nav-container {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-menu {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.nav-menu a {
+	font-size: 0.9rem;
+	font-weight: 400;
+	letter-spacing: 0.08rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+	color: #fff;
+} */
+
+/* body {
+	font-family: sans-serif;
+	color: #fff;
+	background-color: #000;
+}
+
+a {
+	color: #fff;
+}
+*/
